@@ -56,5 +56,6 @@ isatty(STDIN_FILENO) и isatty(STDOUT_FILENO):
 команды для win:
 myprogram.exe < input.txt > output.txt
 команды для linux:
-./app.exe
-./app.exe < input.txt
+./app.exe,
+./app.exe < input.txt,
+g++ -o app.exe code.cpp, потом ./app.exe < input.txt
